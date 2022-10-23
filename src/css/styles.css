@@ -15,6 +15,63 @@ body {
 #search-box {
   font: inherit;
   padding: 8px;
-  max-width: 320px;
+  width: 250px;
   margin-bottom: 16px;
+  border-radius: 6px;
+}
+
+img {
+  display: block;
+}
+
+.country-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item:not(last-child) {
+  margin-bottom: 10px;
+}
+
+.item > p {
+  font-size: 18;
+  font-weight: 500;
+  margin: 0;
+}
+
+.country-info {
+  width: 250px;
+  height: auto;
+
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-title {
+  font-size: 30;
+  margin: 0;
+  margin-bottom: 10px;
+
+  text-align: center;
+}
+
+.card-descr {
+  padding-left: 10px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 18;
+}
+
+.card-descr:not(last-child) {
+  margin-bottom: 5px;
+}
+
+.card-descr > span {
+  font-weight: 400;
 }
